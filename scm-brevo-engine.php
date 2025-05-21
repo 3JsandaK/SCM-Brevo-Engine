@@ -2,6 +2,10 @@
 /**
  * Plugin Name: SCM Brevo Engine
  * Description: Integrates Brevo attributes, lists, and provides [ksj_brevo] shortcode.
+ * GitHub Plugin URI: joemathieu/scm-brevo-campaigns
+ * GitHub Branch: main
+ */
+
  * Version: 1.14.1
  */
 require plugin_dir_path(__FILE__) . 'plugin-update-checker/plugin-update-checker.php';
