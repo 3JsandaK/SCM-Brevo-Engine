@@ -4,6 +4,14 @@
  * Description: Integrates Brevo attributes, lists, and provides [ksj_brevo] shortcode.
  * Version: 1.14.1
  */
+require plugin_dir_path(__FILE__) . 'plugin-update-checker/plugin-update-checker.php';
+
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+    'https://updates.centralcoast.app/scm-brevo-engine/updates.json',
+    __FILE__,
+    'scm-brevo-engine'
+);
+
 
 if ( ! defined( 'ABSPATH' ) ) {
     exit;
