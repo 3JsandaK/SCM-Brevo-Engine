@@ -1,0 +1,9 @@
+{
+  "name": "SCM Brevo Campaigns",
+  "version": "0.1.1",
+  "description": "Manage Brevo Email Templates and Campaigns via Gutenberg blocks.",
+  "slug": "scm-brevo-campaigns",
+  "author": "Screechy Cat Media",
+  "license": "GPLv2+",
+  "readme": "readme.txt"
+}
